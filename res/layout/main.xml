@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dip"
+            android:layout_height="45dp"
+            android:layout_weight="0.5"
+            android:background="@color/selector"
+            android:text="@string/clearButton" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dip"
+            android:layout_height="45dp"
+            android:layout_weight="0.5"
+            android:background="@color/selector"
+            android:text="@string/startButton" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip" >
+
+	    <TextView
+	        android:id="@+id/textView1"
+			android:layout_marginLeft="8dip"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:text="@string/numberOfGroup"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="@color/textcolor" />
+	    <Spinner
+	        android:id="@+id/spinner1"
+	        android:layout_width="54dp"
+	        android:layout_height="40dip"
+	        android:layout_marginLeft="7.5dip"
+	        android:background="@color/selector" />
+   
+   </LinearLayout>
+   <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="5"
+            android:inputType="textPersonName" >
+        </EditText>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@color/selector"
+            android:text="@string/setButton" />
+
+    </LinearLayout>
+     
+    <TextView
+      	android:id="@+id/textView3"
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:text="@string/space"
+      	android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/textcolor" />
+     
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/space"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/textcolor" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/textcolor" />
+
+</LinearLayout>

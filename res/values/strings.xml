@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grouping</string>
+    <string name="numberOfGroup">Group</string>
+    <string name="numberOfMember"></string>
+    <string name="startButton">Start</string>
+    <string name="clearButton">Clear</string>
+	<string name="member">Member: </string>
+	<string-array name="items1">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string name="Group">Group</string>
+	<string name="numOfmem">Number of people :</string>
+    <string name="setButton">　Set　</string>
+    <string name="explain">*set name!</string>
+    <string name="entryMember">Entry Member: </string>
+	<string name="info">set name!</string>
+    <string name="info1">low!</string>
+    <string name="space"> </string>
+    <string name="goto_mail">send mail</string>
+    <string name="info2">!</string>
+    
+</resources>
