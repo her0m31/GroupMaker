@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">組み分け</string>
+    <string name="numberOfGroup"> チーム数 </string>
+    <string name="numberOfMember">登録人数: </string>
+    <string name="startButton"> グループ分けスタート! </string>
+    <string name="clearButton"> オールクリア </string>
+   	<string name="member">メンバー: </string>
+    <string-array name="items1">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+     <string name="Group">グループ</string>
+    <string name="numOfmem">人数 :</string>
+    <string name="setButton">　登録　</string>
+    <string name="explain">*名前を入力してsetボタンを押してください!</string>
+    <string name="entryMember">登録メンバー: </string>
+	<string name="info">名前を入力してください!</string>
+    <string name="info1">登録メンバーが足りません!</string>
+    <string name="space"> </string>
+    <string name="goto_mail">結果をメールする</string>
+    <string name="info2">グループ分けされていません!</string>
+    
+</resources>
